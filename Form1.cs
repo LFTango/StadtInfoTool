@@ -69,7 +69,7 @@ namespace StadtInfoTool
 			}
 		}
 
-		private void button2_Click(object sender, EventArgs e) //Ein button der die heruntergeladenen werte der JSON unter StadtInfoTool\bin\Debug speichert. 
+		private void button2_Click(object sender, EventArgs e) //Ein button der die heruntergeladenen werte der JSON bei der exe speichert. 
 		{
 			if (deserialized != null) //überprüft ob die klasse nicht null ist
 			{
